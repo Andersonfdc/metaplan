@@ -510,7 +510,7 @@ footer .social {
 }
 
 footer .social a {
-  transition: 0.3s;
+  transition: 0.1s;
   display: inline-block;
 }
 
@@ -536,7 +536,7 @@ footer .social a:hover {
   visibility: hidden;
   opacity: 0;
 
-  transition: 0.3s;
+  transition: 0.1s;
   transform: translateY(100%);
 }
 
