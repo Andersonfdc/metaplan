@@ -74,7 +74,7 @@ body {
   padding: 0 2rem;
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
-  transition: background 0.3s;
+  transition: background 0.1s;
 }
 
 .button:hover {
@@ -144,18 +144,18 @@ body {
 }
 
 #header.scroll {
-  transition: 2s;
+  transition: 1s;
   background: var(--base-color);
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.356);
 }
 
 #header.scroll .logo span{
-  transition: 0.2s;
+  transition: 0.1s;
   color: var(--body-color);
 }
 
 #header.scroll .icon-menu{
-  transition: 0.2s;
+  transition: 0.1s;
   color: var(--body-color);
 }
 
@@ -187,7 +187,7 @@ nav ul li {
 }
 
 nav ul li a {
-  transition: color 0.2s;
+  transition: color 0.1s;
   position: relative;
 }
 
@@ -208,7 +208,7 @@ nav ul li a::after {
   left: 0;
   bottom: -1.5rem;
 
-  transition: width 0.2s;
+  transition: width 0.1s;
 }
 
 nav ul li a:hover::after,
@@ -220,7 +220,7 @@ nav .menu {
   opacity: 0;
   visibility: hidden;
   top: -20rem;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 nav .menu ul {
@@ -266,7 +266,7 @@ nav .icon-close {
   position: absolute;
   top: -1.5rem;
   right: 1.5rem;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 nav.show div.icon-close {
